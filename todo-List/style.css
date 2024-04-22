@@ -1,0 +1,63 @@
+#content {
+  padding: 5px;
+  height: 45px;
+  width: 400px;
+  resize: none;
+}
+
+.form-control {
+  display: flex;
+}
+
+.form-control button {
+  height: 57px;
+  line-height: 45px;
+  border: none;
+  padding: 5px;
+  background: #ccc;
+  text-align: center;
+  width: 80px;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#list-task {
+  width: 600px;
+}
+
+#list-task h4 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+#list-task ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#list-task ul li {
+  display: flex;
+  padding: 5px;
+  margin-bottom: 5px;
+  background: #f1f1f1;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+#list-task ul li div {
+  width: 80%;  
+}
+
+#list-task ul li a {
+  text-decoration: none;
+  display: block;
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#list-task ul li a:nth-of-type(2) {
+  color: red;
+}
